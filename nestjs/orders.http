@@ -1,26 +1,26 @@
-GET http://backend.imersao.fullcycle.com.br/orders
-x-token: nwashx2nnej
+GET http://146.190.186.61/orders
+x-token: x7lgg4ipaef
 
 ###
-GET http://localhost:3000/orders/75efb3c2-7ac3-4ebf-b8dd-fa89e758c6d7
+GET http://146.190.186.61/orders/75efb3c2-7ac3-4ebf-b8dd-fa89e758c6d7
 x-token: uwjv5dqrlpo
 
 ###
-POST http://backend.imersao.fullcycle.com.br/orders
+POST http://146.190.186.61/orders
 Content-Type: application/json
-x-token: nwashx2nnej
+x-token: x7lgg4ipaef
 
 {
-    "amount": 1000.33,
+    "amount": 900,
     "credit_card_number": "4485460940174065",
-    "credit_card_name": "Luiz Carlos",
+    "credit_card_name": "Pixu",
     "credit_card_expiration_month": 12,
-    "credit_card_expiration_year": 2022,
+    "credit_card_expiration_year": 2024,
     "credit_card_cvv": "123"
 }
 
 ###
-PATCH http://localhost:3000/orders/64704072-7959-482e-b658-d008612f27e9
+PATCH http://146.190.186.61/orders/64704072-7959-482e-b658-d008612f27e9
 Content-Type: application/json
 
 {
@@ -29,4 +29,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3000/orders/64704072-7959-482e-b658-d008612f27e9
+DELETE http://146.190.186.61/orders/64704072-7959-482e-b658-d008612f27e9
