@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: pixubm/imersao5-frontend:1
+        image: pixubm/imersao5-frontend:{{TAG}}
         ports:
         - containerPort: 3000
     
